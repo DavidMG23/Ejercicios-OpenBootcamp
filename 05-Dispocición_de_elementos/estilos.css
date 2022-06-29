@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    padding: 10px;
+    background-color: bisque;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contenedor img {
+    width: 300px;
+}
