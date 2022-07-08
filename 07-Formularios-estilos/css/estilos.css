@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161717;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    min-width: 400px;
+}
+
+.container-login {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-google {
+    display: flex;
+    align-items: center;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 2px;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.btn-google span {
+    color: #fff;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.btn-google picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 2px 0 0 2px;
+}
+
+.btn-google picture img {
+    width: 80%;
+}
+
+.btn-google:hover {
+    opacity: .8;
+}
+
+.btn-twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    padding: 3px;
+    width: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+.btn-twitter:hover {
+    background-color: #e0dede;
+}
+
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.separator span {
+    color: #8d8d8d;
+}
+.container-names {
+    display: flex;
+    gap: 15%;
+    width: 100%;
+}
+label span{
+    display: block;
+    margin-bottom: 5px;
+}
+.container-names label input {
+    background-color: #212121;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: transparent;
+    font-size: 14pt;
+}
+label input {
+    width: 100%;
+    background-color: #212121;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14pt;
+    transition: all .2s;
+}
+label span {
+    font-weight: 700;
+}
+label input:hover:not([type=checkbox]) {
+    background-color: #454045;
+    border: 1px solid #212121;
+    box-shadow: 0 0 4px pink;
+}
+label input:focus:not([type=checkbox]) {
+    background-color: #454045;
+    color: #fff;
+    box-shadow: 0 0 4px #ea4c89;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.checkbox input {
+    width: 20px;
+}
+.checkbox span {
+    font-weight: 300;
+}
+
+.btn-submit {
+    background-color: #ea4c89;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    max-width: 50%;
+    transition: all .2s;
+}
+.btn-submit:hover {
+    opacity: .8;
+}

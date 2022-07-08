@@ -1,0 +1,71 @@
+<!-- 
+Replica el ejercicio del vídeo 3 de esta sesión y realiza el siguiente cambio:
+
+> Replícalo exactamente igual, pero realiza una nueva versión en modo oscuro
+
+> Los colores serán los siguientes
+
+    >> El rosa se queda igual
+
+    >> El fondo blanco será sustituido por el color #161717
+
+    >> El fondo de los inputs tendrá un color #212121
+
+    >> El fondo de los inputs cuando se hace hover será del color #454045
+
+    >> Los textos tendrán un color blanco
+ -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Regístrate en Dribbble</h3>
+        <div class="container-login">
+            <button class="btn-google">
+                <picture>
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F836%2FPNG%2F512%2FGoogle_icon-icons.com_66793.png&f=1&nofb=1" alt="Logo Google">
+                </picture>
+                <span>Regístrate con Google</span>
+            </button>
+            <a href="#" class="btn-twitter">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Ftwitter-1722376-1466162.png&f=1&nofb=1" alt="Logo twiter" width="20">
+            </a>
+        </div>
+        <div class="separator">
+            <hr>
+            <span>O..</span>
+            <hr>
+        </div>
+        <div class="container-names">
+            <label for="name">
+                <span>Nombre</span>
+                <input type="text" name="name" id="name">
+            </label>
+            <label for="userName">
+                <span>Nombre de usuario</span>
+                <input type="text" name="userName" id="userName">
+            </label>
+        </div>
+        <label for="email"> 
+            <span>Correo</span>
+            <input type="text" name="email" id="email">
+        </label>
+        <label for="password"> 
+            <span>Contraseña</span>
+            <input type="password" name="password" id="password" placeholder="6+ caracteres">
+        </label>
+        <label for="checkbox" class="checkbox"> 
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <span>Acepto términos y condiciones</span>
+        </label>
+        <button type="submit" class="btn-submit">Crear cuanta</button>
+    </div>
+</body>
+</html>
