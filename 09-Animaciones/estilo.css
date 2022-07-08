@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-modern {
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    transition: all .4s;
+}
+.btn-modern:hover {
+    transform: translateY(-5px);
+    background-color: #006685;
+    color: #fff;
+    box-shadow: 0 0 10px #616161;
+}
