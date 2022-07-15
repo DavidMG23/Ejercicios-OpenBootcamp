@@ -1,0 +1,91 @@
+<!-- 
+Crea un nuevo documento HTML con el título "Elementos de Interés en Bootstrap"
+
+    > Utilizando la página oficial getboostrap.com, añade la última versión de Bootstrap a este documento HTML
+
+    > Crea tres secciones
+
+    > En la primera sección crea un Jumbotron replicando el que realizamos en el vídeo
+
+        >> El botón de llamada a la acción debe abrir una ventana modal
+
+    > En la segunda sección crea un formulario de contacto con los campos "nombre" (text), "teléfono" (number) y mensaje (textarea)
+
+    > En la tercera sección crea una tarjeta con tu perfil de desarrollador/a que contenga lo siguiente
+
+        >> Tu nombre en el título
+
+        >> Una breve descripción
+
+        >> Tu email en el footer
+ -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+		<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+		<title>Elementos de Interés en Bootstrap</title>
+	</head>
+	<body>
+		<div class="container my-5">
+			<section class="jumbo bg-light p-5 rounded-3">
+				<div class="container-fluid py-5">
+					<h1 class="display-5 fw-bold">Custom Jumbotron</h1>
+					<p class="col-md-8 fs-4">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quis animi repellat, molestias magni aperiam a corrupti, eligendi ipsam sint soluta vitae sit quaerat quisquam,
+						exercitationem officiis voluptate itaque fugiat.
+					</p>
+					<button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Modal</button>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Titulo del Modal</h5>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<p class="modal-body">Cuerpo del modal</p>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+									<button type="button" class="btn btn-primary">Guardar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr />
+			<section class="form col-md-6 m-auto">
+				<form>
+					<div class="mb-3 form-floating">
+						<input type="text" class="form-control" id="name" placeholder="name" />
+						<label for="name" class="form-label">Nombre</label>
+					</div>
+					<div class="mb-3 form-floating">
+						<input type="number" class="form-control" id="telefono" placeholder="telefono" min="0"/>
+						<label for="telefono" class="form-label">Teléfono</label>
+					</div>
+					<div class="mb-3">
+						<label for="textarea" class="form-label">Mensaje:</label>
+						<textarea type="text" class="form-control" id="textarea"></textarea>
+					</div>
+				</form>
+			</section>
+			<hr />
+			<section class="tarjeta">
+				<div class="col-sm-4 m-auto">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">David Morales Garcia</h5>
+							<p class="card-text">Soy desarrollador web, actualmente estoy en búsqueda de mi primer empleo. Para potenciar mis conocimientos estoy cursando OpenBootcamp 🚀</p>
+						</div>
+						<div class="card-footer">davidmorales.gs@gmail.com</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>
