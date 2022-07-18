@@ -1,6 +1,6 @@
 # OpenBootcamp 
 ___[Visita su web](https://campus.open-bootcamp.com/)___
 
-## Curso de: HTML y CSS
+## Curso: Front End
 
 ### _Listado de los Ejercicios_
