@@ -15,4 +15,4 @@ const suma = mates.suma(23, 6)
 console.log(`La suma es: ${suma}`)
 
 const multiplicar = mates.multiplicar(7, 9)
-console.log(chalk.green(`La suma es: ${multiplicar}`))
+console.log(chalk.green(`La multiplicación es: ${multiplicar}`))
